@@ -1,0 +1,73 @@
+html {
+    width: 460px;
+    margin: 0 auto;
+    border-style: double;
+    background-color: gray;
+}
+
+h1{
+    width: 444px;
+    margin: auto;
+    background-color: red;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: blue;
+    color: #000B49;
+    width: 84px;
+    height: 80px;
+    font-size: 50px;
+}
+
+
+button:hover {
+    background-color: #000B49;
+    color: white;
+}
+
+div {
+    height: 550px;
+    max-width: 444px;
+    background-color: darkgray;
+    margin: auto;
+}
+
+li {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+#thescreen {
+    font-size: 50px;
+    text-align: right;  
+    width: 440px;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.operation {
+    background-color: lightcoral;
+}
+
+.other{
+    background-color: lightskyblue;
+}
+
+.enter{
+    background-color: magenta;
+}
+
+#start {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    cursor: pointer;
+}
